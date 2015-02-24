@@ -6,9 +6,9 @@ Pod::Spec.new do |s|
   s.screenshots  = "http://jwilling.com/drop/github/JNWCollectionView.png"
   s.license      = 'MIT'
   s.author       = { "Jonathan Willing" => "hi@jwilling.com" }
- # s.source       = { :git => "https://github.com/artemch/JNWCollectionView.git", :tag => s.version.to_s }
-  s.source 	     = { :git => "https://github.com/artemch/JNWCollectionView.git"}
-  
+  s.source       = { :git => "https://github.com/artemch/JNWCollectionView.git", :tag => s.version.to_s }
+  #s.source 	     = { :git => "https://github.com/artemch/JNWCollectionView.git"}
+
   s.platform     = :osx, '10.8'
   s.requires_arc = true
 
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
     'JNWCollectionView/JNWCollectionViewListLayout.h',
     'JNWCollectionView/JNWCollectionViewReusableView.h',
     'JNWCollectionView/JNWCollectionViewFramework.h'
-  
+
   s.frameworks = 'Cocoa', 'QuartzCore'
   s.dependency 'JNWScrollView'
 end
